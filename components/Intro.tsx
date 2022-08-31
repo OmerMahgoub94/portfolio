@@ -24,7 +24,7 @@ function Intro() {
 
 				{/* <p className="py-2 font-bold text-4xl bg-[#52ffce] text-[#0077b6] w-80 text-center"> */}
 				<div className=' my-3 py-2 font-bold md:mx-0 mx-auto text-3xl bg-[#f57878] text-[#fbfeff] w-96 text-center mt-20'>
-					SOFTWARE DEVELOPER
+					SOFTWARE DEVELOPER <span></span>
 				</div>
 
 				{/* </p> */}
