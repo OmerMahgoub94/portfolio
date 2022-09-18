@@ -1,5 +1,4 @@
 import React from 'react';
-import Image from 'next/image';
 import Intro from './Intro';
 import Hero from './Hero';
 

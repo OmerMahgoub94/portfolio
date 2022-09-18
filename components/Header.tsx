@@ -13,7 +13,9 @@ function Header() {
 					<div className='lg:font-semibold lg:text-lg'>Services</div>
 					<div className='lg:font-semibold lg:text-lg'>Porfolio</div>
 					<div className='lg:font-semibold lg:text-lg'>About</div>
-					<div className='lg:font-semibold lg:text-lg'>Contact Me</div>
+					<div className='lg:font-semibold lg:text-lg'>
+						Contact Me
+					</div>
 				</div>
 
 				<div className='hidden md:inline-flex items-center space-x-1 bg-gradient-to-r from-black to-gray-700 px-5 py-2 rounded-3xl text-white hover:cursor-pointer'>
