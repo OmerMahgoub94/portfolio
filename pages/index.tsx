@@ -8,7 +8,7 @@ import Services from '../components/Services';
 const Home: NextPage = () => {
 	return (
 		<div
-			className='bg-no-repeat bg-cover object-fill h-screen '
+			className='bg-no-repeat bg-cover object-fill h-full '
 			style={{
 				backgroundImage: "url('/bg.png')",
 			}}>

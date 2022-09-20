@@ -1,15 +1,29 @@
 import Image from 'next/image';
 import React from 'react';
+import { motion } from 'framer-motion';
 
 function Hero() {
 	return (
-		<div className='relative h-96 w-96'>
+		<motion.div
+			initial={{
+				x: 500,
+				opacity: 0,
+			}}
+			animate={{
+				x: 0,
+				opacity: 1,
+			}}
+			transition={{
+				duration: 1,
+				delay: 1,
+			}}
+			className='relative h-96 w-96 '>
 			<Image
 				src='/Operating system-rafiki.svg'
 				alt='Monkey face'
 				layout='fill'
 			/>
-		</div>
+		</motion.div>
 	);
 }
 
