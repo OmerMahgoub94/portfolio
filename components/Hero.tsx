@@ -17,7 +17,7 @@ function Hero() {
 				duration: 1,
 				delay: 1,
 			}}
-			className='relative h-96 w-96 '>
+			className='relative h-96 w-full '>
 			<Image
 				src='/Operating system-rafiki.svg'
 				alt='Monkey face'

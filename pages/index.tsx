@@ -8,12 +8,12 @@ import Services from '../components/Services';
 const Home: NextPage = () => {
 	return (
 		<div
-			className='bg-no-repeat bg-cover object-fill h-full '
+			className='overflow-x-clip bg-no-repeat bg-cover object-fill h-screen '
 			style={{
 				backgroundImage: "url('/bg.png')",
 			}}>
 			<Head>
-				<title>Create Next App</title>
+				<title>Omer Mahgoub</title>
 				<meta
 					name='viewport'
 					content='width=device-width; initial-scale = 1.0;'
@@ -24,7 +24,6 @@ const Home: NextPage = () => {
 					href='/favicon.ico'
 				/>
 			</Head>
-
 			{/* <main className="max-w-screen-2xl mx-auto"> */}
 			<main className='max-w-screen-2xl mx-auto'>
 				<Header />
